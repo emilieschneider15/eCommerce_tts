@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'view_order' => 'cart#view_order'
 
-  get 'checkout' => 'cart/checkout'
+  get 'checkout' => 'cart#checkout'
 
   devise_for :users
   get 'items' => 'storefront#all_items'

@@ -46,7 +46,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'cancancan'
 
-# Image uploads
+# Image uploadsmess
 gem 'paperclip'
 
 # Other stuff
